@@ -10,6 +10,6 @@
   <!-- Trees -->
         <project path="device/xiaomi/santoni" name="iamnabilzaman/device-santoni-1/" remote="dt" revision="arrow-12" />
         <project path="vendor/xiaomi" name="vendor-santoni" remote="Jabiyeff" revision="12.0" />
-        <project path="kernel/xiaomi/msm8937" name="msm-4.9-santoni-kud" remote="Jabiyeff" revision="12.0" />
+        <project path="kernel/xiaomi/msm8937" name="msm-4.9-santoni-kud" remote="Jabiyeff" revision="12.0-19.12.21-A12-prima" />
   
 </manifest>
