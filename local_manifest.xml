@@ -4,9 +4,12 @@
   <remote name="git"
           fetch="https://github.com/iamnabilzaman/" />
   
+  <remote name="msm8937"
+          fetch="https://github.com/mi-msm8937/" />
+  
   <!-- Trees -->
         <project path="device/xiaomi/santoni" name="device_xiaomi_santoni" remote="git" revision="12" />
         <project path="vendor/xiaomi" name="vendor-santoni-1" remote="git" revision="12.0" />
-        <project path="kernel/xiaomi/msm8937" name="msm-4.9-santoni-kud" remote="Jabiyeff" revision="12.0-19.12.21-A12-prima" />
+        <project path="kernel/xiaomi/msm8937" name="android_kernel_xiaomi_msm8937" remote="msm8937" revision="a12/master" />
 
 </manifest>
