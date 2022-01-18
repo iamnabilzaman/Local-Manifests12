@@ -4,13 +4,13 @@
   <remote name="git"
           fetch="https://github.com/iamnabilzaman/" />
   
-  <!-- Hals -->
-        <project path="hardware/qcom-caf/msm8998/display" name="hardware_qcom-caf_msm8996_display" remote="git" revision="twelve" clone-depth="1"/>
-  
   <!-- Trees -->
         <project path="device/xiaomi/santoni" name="device-s" remote="git" revision="CAF-12" clone-depth="1"/>
         <project path="vendor/xiaomi" name="vendor-s" remote="git" revision="caf-12" clone-depth="1"/>
         <project path="kernel/xiaomi/msm8937" name="L_soul_santoni_msm4.9" remote="git" revision="ss0500" clone-depth="1"/>
+  
+  <!-- Hals -->
+        <project path="hardware/qcom-caf/msm8998/display" name="hardware_qcom-caf_msm8996_display" remote="git" revision="twelve"/>
 
 </manifest>
  
