@@ -5,9 +5,9 @@
           fetch="https://github.com/iamnabilzaman/" />
   
   <!-- Trees -->
-        <project path="device/xiaomi/santoni" name="device-s" remote="git" revision="CAF-12" clone-depth="1"/>
-        <project path="vendor/xiaomi" name="vendor-s" remote="git" revision="caf-12" clone-depth="1"/>
-        <project path="kernel/xiaomi/msm8937" name="L_soul_santoni_msm4.9" remote="git" revision="ss0500" clone-depth="1"/>
+        <project path="device/xiaomi/santoni" name="device-s" remote="git" revision="12-staging" />
+        <project path="vendor/xiaomi" name="vendor-s" remote="git" revision="12.0" />
+        <project path="kernel/xiaomi/msm8937" name="L_soul_santoni_msm4.9" remote="git" revision="ss0500" />
 
 </manifest>
  
