@@ -5,9 +5,9 @@
           fetch="https://github.com/iamnabilzaman/" />
   
   <!-- Trees -->
-        <project path="device/xiaomi/santoni" name="dt_santoni" remote="git" revision="xd"/>
+        <project path="device/xiaomi/santoni" name="dt_santoni" remote="git" revision="12/xdroid"/>
         <project path="vendor/xiaomi" name="vt_santoni" remote="git" revision="12.0"/>
-        <project path="kernel/xiaomi/msm8937" name="L_soul_santoni_msm4.9" remote="git" revision="ss0501"/>
+        <project path="kernel/xiaomi/msm8937" name="msm-4.9-santoni-kud" remote="git" revision="12.0"/>
 
 </manifest>
  
