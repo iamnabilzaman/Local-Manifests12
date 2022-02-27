@@ -14,4 +14,8 @@
  <project path="packages/apps/CameraGo" name="android_packages_apps_CameraGo" remote="git" revision="main" />
  <project path="packages/apps/FMRadio" name="android_packages_apps_FMRadio" remote="git" revision="12" />
 
+ <!-- Sepolicy -->
+ <remove-project name="platform_device_qcom_sepolicy-legacy-um" />
+ <project path="device/qcom/sepolicy-legacy-um" name="android_device_qcom_sepolicy" remote="git" revision="octavi-12-caf-4.9-S-new" />
+
 </manifest>
