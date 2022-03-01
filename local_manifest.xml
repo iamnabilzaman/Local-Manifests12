@@ -4,16 +4,9 @@
   <remote name="git"
           fetch="https://github.com/iamnabilzaman/" />
   
-  <remote name="ItoRenz-Build"
-          fetch="https://github.com/ItoRenz-Build" />
-  
   <!-- Device Trees -->
-        <project path="device/xiaomi/santoni" name="dt_santoni" remote="git" revision="octavi" />
+        <project path="device/xiaomi/santoni" name="dt_santoni" remote="git" revision="xdroid" />
         <project path="vendor/xiaomi" name="vt_santoni" remote="git" revision="s" />
         <project path="kernel/xiaomi/msm8937" name="msm-4.9-santoni-kud" remote="git" revision="12.0" />
-  
-  <!-- Extra -->
-        <remove-project name="android_hardware_qcom-caf_wlan" />
-        <project path="hardware/qcom-caf/wlan" name="android_hardware_qcom_wlan" remote="ItoRenz-Build" revision="12" />
 
 </manifest>
