@@ -1,21 +1,17 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <manifest>
-
-  <remote name="git"
-          fetch="https://github.com/iamnabilzaman/" />
-
   
   <!-- Device Trees -->
-        <project path="device/xiaomi/santoni" name="dt_santoni" remote="git" revision="octavi" />
-        <project path="vendor/xiaomi" name="vt_santoni" remote="git" revision="s" />
-        <project path="kernel/xiaomi/msm8937" name="msm-4.9-santoni-kud" remote="git" revision="12.0" />
+        <project path="device/xiaomi/santoni" name="iamnabilzaman/dt_landtoni" remote="github" revision="twelve-test" />
+        <project path="vendor/xiaomi" name="iamnabilzaman/vt_landtoni" remote="github" revision="test2" />
+        <project path="kernel/xiaomi/msm8937" name="iamnabilzaman/android_kernel_xiaomi_msm8937" remote="github" revision="a12/master" />
   
  <!-- Packages -->
- <project path="packages/apps/CameraGo" name="android_packages_apps_CameraGo" remote="git" revision="main" />
- <project path="packages/apps/FMRadio" name="android_packages_apps_FMRadio" remote="git" revision="12" />
+ <project path="packages/apps/CameraGo" name="iamnabilzaman/android_packages_apps_CameraGo" remote="github" revision="main" />
+ <project path="packages/apps/FMRadio" name="iamnabilzaman/android_packages_apps_FMRadio" remote="github" revision="12" />
 
  <!-- Sepolicy -->
  <remove-project name="platform_device_qcom_sepolicy-legacy-um" />
- <project path="device/qcom/sepolicy-legacy-um" name="android_device_qcom_sepolicy" remote="git" revision="octavi-12-caf-4.9-S-new" />
+ <project path="device/qcom/sepolicy-legacy-um" name="iamnabilzaman/android_device_qcom_sepolicy" remote="github" revision="octavi-12-caf-4.9-S-new" />
 
 </manifest>
