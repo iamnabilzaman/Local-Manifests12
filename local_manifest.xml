@@ -22,4 +22,18 @@
                  remote="github"
                  revision="12.0"/>
   
+     <!-- Hals -->
+        <project path="vendor/qcom/opensource/audio-hal/primary-hal"
+                 name="iamnabilzaman/android_hardware_qcom_audio"
+                 remote="github"
+                 revision="11.0-caf-msm8996" />
+        <project path="hardware/qcom/display"
+                 name="iamnabilzaman/qcom_display"
+                 remote="github"
+                 revision="12.0-caf-msm8996" />
+        <project path="hardware/qcom/media"
+                 name="iamnabilzaman/qcom_media"
+                 remote="github"
+                 revision="12.0-caf-msm8996" />
+  
 </manifest>
