@@ -35,5 +35,11 @@
                  name="iamnabilzaman/qcom_media"
                  remote="github"
                  revision="12.0-caf-msm8996" />
+   
+     <!-- Sepolicy -->
+        <project path="device/qcom/sepolicy-legacy"
+                 name="iamnabilzaman/android_device_qcom_sepolicy"
+                 remote="github"
+                 revision="lineage-19.0-legacy-um" />
   
 </manifest>
