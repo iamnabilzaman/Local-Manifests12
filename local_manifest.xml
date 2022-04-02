@@ -8,7 +8,7 @@
         <project path="device/xiaomi/santoni"
                  name="iamnabilzaman/dt_santoni"
                  remote="github"
-                 revision="arrow-12"/>
+                 revision="blaze"/>
   
      <!-- Vendor Tree -->
         <project path="vendor/xiaomi"
